@@ -1835,9 +1835,11 @@ function withGlobal(_global) {
 /* eslint-enable complexity */
 
 /** @type {FakeTimers} */
+/*
 const defaultImplementation = withGlobal(globalObject);
 
 exports.timers = defaultImplementation.timers;
 exports.createClock = defaultImplementation.createClock;
 exports.install = defaultImplementation.install;
+*/
 exports.withGlobal = withGlobal;
